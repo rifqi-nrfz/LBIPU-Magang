@@ -1,0 +1,372 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #221B8D;
+    padding: 52px 0px 42px 0px;
+}
+
+.bg-youngBlue {
+    background-color:#221B8D;
+    color: white;
+}
+
+.navleft {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav img {
+    width: 150px;
+}
+
+header nav form .btn-primary{
+    color: #fff;
+    background-color: #E2232B;
+    border-color: #E2232B;
+}
+
+header nav form .btn-primary:hover{
+    color: #fff;
+    background-color: #ce1f28;
+    border-color: #ce1f28;
+}
+
+footer{
+    background-color: #221B8D;
+    margin-top: 50px;
+}
+
+footer img{
+    float: left;
+}
+
+main .informasi{
+    font-size: 20px;
+}
+
+/* Responsive Video */
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.informasi .row .col{
+    padding-bottom: 28px;
+}
+
+.informasi .viewall{
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.informasi .card a{
+    text-decoration: none;
+    color: #000;
+}
+
+.informasi .card-body .card-text{
+    text-align: left;
+}
+
+.pelayanan{
+    background-color: rgb(235, 240, 250);
+}
+
+.pelayanan h1{
+    color: #E2232B;
+}
+
+.pelayanan .row{
+    margin-bottom: 50px;
+}
+
+.pelayanan .description{
+    text-align: left;
+}
+
+.pelayanan .text-description{
+    text-align: left;
+}
+
+.pelayanan h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #221B8D;
+    font-weight: normal;
+    letter-spacing: 1.1px;
+}
+
+.pelayanan .text-description a{
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 4px 30px 4px 30px;
+    background-color: #E2232B;
+    border-color: #E2232B;
+}
+
+.pelayanan .text-description a:hover{
+    font-size: 16px;
+    padding: 4px 30px 4px 30px;
+    background-color: #ce1f28;
+    border-color: #ce1f28;
+}
+
+.pelayanan .pelayanan-image{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.pelayanan .btn-pelayanan{
+    padding: 4px 8px 4px 8px;
+    margin-bottom: 30px;
+}
+
+/* main .kalendarAkademik {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 80px 0px 42px 0px;
+} */
+
+.kalendarAkademik .row{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+/* Profil */
+.profil{
+    text-align: center;
+    height: 75vh;
+}
+
+.profil h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 0px 12px 0px;
+    text-align: center;
+}
+
+.profil p{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.profil a{
+    font-size: 20px;
+    font-weight: normal;
+    display: flex;
+    justify-content: start;
+}
+
+/* Visi-misi-tujuan */
+.visi-misi-tujuan h1{
+    text-align: center;
+}
+
+.visi-misi-tujuan h2{
+    font-size: 24px;
+}
+
+.visi-misi-tujuan p{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.visi-misi-tujuan ol{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* Sejarah */
+.sejarah h1{
+    text-align: center;
+}
+
+.sejarah p{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sejarah{
+    height: auto;
+}
+
+/* Daftar Dosen */
+.daftar-dosen h1{
+    text-align: center;
+}
+
+.daftar-dosen h2{
+    font-size: 24px;
+}
+
+/* MKDU */
+.mkdu h1{
+    text-align: center;
+}
+
+.mkdu h2{
+    font-size: 24px;
+}
+
+.mkdu table{
+    margin-bottom: 4px;
+}
+
+/* BIPA */
+.bipa h1{
+    text-align: center;
+}
+
+.bipa h2{
+    font-size: 24px;
+}
+
+.bipa p{
+    text-align: justify;
+}
+
+.bipa .card{
+    margin-bottom: 30px;
+}
+
+/* Semua Program */
+.program h1{
+    text-align: center;
+}
+
+.program .col-sm-4{
+    padding-bottom: 30px;
+}
+
+.program .card{
+    height: 170px;
+}
+
+/* galeri */
+.galeri h1{
+    text-align: center;
+}
+
+.galeri h2{
+    font-size: 24px;
+}
+
+.galeri p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.galeri .col{
+    margin-bottom: 30px;
+}
+
+/* Pengumuman */
+.semua-pengumuman h1{
+    text-align: center;
+}
+
+.semua-pengumuman li{
+    font-size: 16px;
+}
+
+.semua-pengumuman a{
+    text-decoration: none;
+}
+
+/* Detail-pengumuman */
+.detail-pengumuman{
+    width: 70%;
+}
+
+.detail-pengumuman h1{
+    text-align: left;
+    font-size: 32px;
+    color: #E2232B;
+}
+
+.detail-pengumuman img{
+    margin-top: -30px;
+    width: 65%;
+    height: 300px;
+}
+
+/* Pimpinan-Staff */
+.pimpinanstaff{
+    text-align: center;
+}
+
+.pimpinanstaff table{
+    text-align: left;
+}
+
+
+footer .keanggotaan img{
+    width: 70px;
+    height: 60px;
+    margin-right: 3%;
+    border: 1px solid white;
+    background-color: #fff;
+    
+}
+
+footer .list-unstyled a{
+    text-decoration: none;
+}
+
+footer .medsos img{
+    width: 44px;
+}
+
+@media (max-width: 500px) {
+    #navbarNavDropdown {
+        justify-content: flex-start;
+    }
+
+    .form-size {
+        position: relative;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .informasi .container-btn{
+        text-align: center;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .profil{
+        text-align: center;
+        height: auto;
+    }
+
+    .detail-pengumuman img{
+        margin-top: -30px;
+        width: 100%;
+        height: 250px;
+    }
+
+
+    /* .kalendarAkademik h1{
+        margin-top: 1%;
+    } */
+}
+
