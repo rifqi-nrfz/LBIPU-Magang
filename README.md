@@ -1,6 +1,6 @@
 # LBIPU-magang
 
-#### [Demo](https://renodria.github.io//)
+#### [Demo](https://lbipu.000webhostapp.com//)
 
 
 ## Contributing
